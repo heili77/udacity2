@@ -82,7 +82,7 @@ it('can add the star name and star symbol properly', async() => {
    // await instance.createStar('to exchange star1', starId1, {from: user1});
     //2. Call the name and symbol properties in your Smart Contract and compare with the name and symbol provided
     let instance = await StarNotary.deployed();
-    assert.equal(await instance.name.call(), "Udacity StarNotary");
+    assert.equal(await instance.name.call(), "Udacity StarNotary TG");
     assert.equal(await instance.symbol.call(), "USD");
 });
 
